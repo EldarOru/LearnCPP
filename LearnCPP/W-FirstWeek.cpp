@@ -10,12 +10,12 @@ struct CustomPerson {
 	string surname;
 
 };
-
+/*
 int main() {
 	//cout << "Hello world";
 
 	// types
-	/*
+	
 	int x = 5;
 	string hi = "string";
 	vector<int> nums = { 1, 3, 5, 7 };
@@ -23,7 +23,7 @@ int main() {
 	customPerson.name;
 	map<string, int> myMap;
 	myMap["one"] = 1;
-	*/
+	
 
 	//cycles
 	
@@ -42,7 +42,7 @@ int main() {
 
 	sort(begin(mynums), end(mynums));
 
-	for (int i = 0; i<10; ++i) {
+	for (int i = 0; i < 10; ++i) {
 		cout << i;
 	}
 	
@@ -52,4 +52,8 @@ int main() {
 	cin >> name;
 	cout << "Hello, " << name;
 	return 0;
+
+	//¬ —++ присваивание осуществл€етс€ не через ссылку, а через глубокое копированик
 }
+*/
+
