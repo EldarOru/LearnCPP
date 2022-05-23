@@ -127,14 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Task1.cpp" />
-    <ClCompile Include="Task2.cpp" />
-    <ClCompile Include="Task3.cpp" />
-    <ClCompile Include="Task4.cpp" />
-    <ClCompile Include="Task5.cpp" />
-    <ClCompile Include="W-FirstWeek.cpp" />
-    <ClCompile Include="W-SecondWeek.cpp" />
-    <ClCompile Include="W-ThirdWeek.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task1.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task2.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task3.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task4.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task5.cpp" />
+    <ClCompile Include="WhiteBelt\Lessons\W-FirstWeek.cpp" />
+    <ClCompile Include="WhiteBelt\Lessons\W-SecondWeek.cpp" />
+    <ClCompile Include="WhiteBelt\Lessons\W-ThirdWeek.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

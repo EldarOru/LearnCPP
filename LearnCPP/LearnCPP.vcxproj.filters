@@ -24,28 +24,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="W-FirstWeek.cpp">
+    <ClCompile Include="WhiteBelt\Lessons\W-FirstWeek.cpp">
       <Filter>Source Files\WhiteBelt\Lectures</Filter>
     </ClCompile>
-    <ClCompile Include="W-SecondWeek.cpp">
+    <ClCompile Include="WhiteBelt\Lessons\W-SecondWeek.cpp">
       <Filter>Source Files\WhiteBelt\Lectures</Filter>
     </ClCompile>
-    <ClCompile Include="W-ThirdWeek.cpp">
+    <ClCompile Include="WhiteBelt\Lessons\W-ThirdWeek.cpp">
       <Filter>Source Files\WhiteBelt\Lectures</Filter>
     </ClCompile>
-    <ClCompile Include="Task1.cpp">
+    <ClCompile Include="WhiteBelt\Tasks\Task1.cpp">
       <Filter>Source Files\WhiteBelt\Tasks</Filter>
     </ClCompile>
-    <ClCompile Include="Task2.cpp">
+    <ClCompile Include="WhiteBelt\Tasks\Task2.cpp">
       <Filter>Source Files\WhiteBelt\Tasks</Filter>
     </ClCompile>
-    <ClCompile Include="Task3.cpp">
+    <ClCompile Include="WhiteBelt\Tasks\Task3.cpp">
       <Filter>Source Files\WhiteBelt\Tasks</Filter>
     </ClCompile>
-    <ClCompile Include="Task4.cpp">
+    <ClCompile Include="WhiteBelt\Tasks\Task4.cpp">
       <Filter>Source Files\WhiteBelt\Tasks</Filter>
     </ClCompile>
-    <ClCompile Include="Task5.cpp">
+    <ClCompile Include="WhiteBelt\Tasks\Task5.cpp">
       <Filter>Source Files\WhiteBelt\Tasks</Filter>
     </ClCompile>
   </ItemGroup>
