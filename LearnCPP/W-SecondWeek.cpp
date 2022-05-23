@@ -43,7 +43,7 @@ void PringGiantVectorSize(const vector<Person>& vec) {
 	cout << "Size is " << vec.size() << endl;
 }
 
-int main() {
+int mainW2() {
 	//Параметры функций передаются по значению
 	int x, y;
 	cin >> x >> y;
