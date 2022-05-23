@@ -41,12 +41,12 @@ using namespace std;
 
 void printVector(const vector<string>& data) {
 	for (const auto& value : data) {
-		std::cout << value << ", ";
+		cout << value << ", ";
 	}
 	cout << endl;
 }
 
-int main() {
+int mainT5() {
 	map<string, vector<string>> listBusesStops, listStopBuses;
 
 	string command;

@@ -48,5 +48,16 @@
     <ClCompile Include="WhiteBelt\Tasks\Task5.cpp">
       <Filter>Source Files\WhiteBelt\Tasks</Filter>
     </ClCompile>
+    <ClCompile Include="WhiteBelt\Tasks\Task6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBelt\Tasks\Task7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WhiteBelt\Tasks\PrintVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

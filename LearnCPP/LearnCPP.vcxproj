@@ -135,6 +135,11 @@
     <ClCompile Include="WhiteBelt\Lessons\W-FirstWeek.cpp" />
     <ClCompile Include="WhiteBelt\Lessons\W-SecondWeek.cpp" />
     <ClCompile Include="WhiteBelt\Lessons\W-ThirdWeek.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task6.cpp" />
+    <ClCompile Include="WhiteBelt\Tasks\Task7.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WhiteBelt\Tasks\PrintVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
