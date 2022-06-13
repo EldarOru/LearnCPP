@@ -39,7 +39,7 @@ void Sort(vector<int>& v) {
 * также мы не можем в аргумент функции передать результат вызова другой функции
 * но мы можем сделать константную ссылку, которую нельзя будет модифицировать
 */
-void PringGiantVectorSize(const vector<Person>& vec) {
+void PrintGiantVectorSize(const vector<Person>& vec) {
 	cout << "Size is " << vec.size() << endl;
 }
 
