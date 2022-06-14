@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="WhiteBelt\Lessons\W-FourthWeek.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task1.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task2.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task3.cpp" />

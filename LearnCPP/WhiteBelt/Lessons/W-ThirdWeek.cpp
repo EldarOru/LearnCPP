@@ -48,6 +48,7 @@ public:
 	~Route() {
 
 	}
+
 	string GetSource() const { return source; }
 	string GetDestination() const { return destination; }
 	int GetLength() const { return length; }
@@ -68,7 +69,7 @@ private:
 void PrintRoute(const Route& route) {
 	cout << route.GetSource() << " - " << route.GetDestination();
 }
-int main() {
+int mainW3() {
 	vector<int>numbers = { 1,5,4,2,3,2 };
 	sort(begin(numbers), end(numbers));
 	Print(numbers);
