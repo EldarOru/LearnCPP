@@ -57,6 +57,9 @@
     <ClCompile Include="WhiteBelt\Lessons\W-FourthWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WhiteBelt\Tasks\FinalProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WhiteBelt\Tasks\PrintVector.h">

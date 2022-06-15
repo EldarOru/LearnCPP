@@ -84,10 +84,10 @@ bool operator < (const Duration& dur1, const Duration& dur2) {
 	if (dur1.hour == dur2.hour) {
 		return dur1.min < dur2.min;
 	}
-	return dur1.min < dur2.min;
+	return dur1.hour < dur2.hour;
 }
 
-int main() {
+int mainW4() {
 
 	Date date = { Day{5}, Month{12} };
 	//-----------------------
