@@ -212,7 +212,7 @@ public:
 
 };
 
-int main() {
+int mainFP1() {
 
 	string command = "default";
 	Database database;
