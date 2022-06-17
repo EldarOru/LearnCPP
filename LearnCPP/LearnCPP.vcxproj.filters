@@ -60,7 +60,10 @@
     <ClCompile Include="WhiteBelt\Tasks\FinalProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="YellowBelt\FirstWeek.cpp">
+    <ClCompile Include="YellowBelt\Lessons\FirstWeek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowBelt\Lessons\SecondWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -43,7 +43,6 @@ pair <First, Second> operator * (pair <First, Second> one, pair <First, Second> 
 	return make_pair(first, second);
 }
 
-
 template <typename First, typename Second>
 ostream& operator << (ostream& stream, pair <First, Second> one) {
 	stream << one.first << " " << one.second;
@@ -52,9 +51,9 @@ ostream& operator << (ostream& stream, pair <First, Second> one) {
 
 template <typename Collection>
 string join(const Collection& c, char d) {
-	stringstream str;
+	stringstream ss;
 	bool first = true;
-	for (const auto& : c) {
+	for (const auto& i: c) {
 		if (!first) {
 			ss << d;
 		}
@@ -62,7 +61,7 @@ string join(const Collection& c, char d) {
 		ss << i;
 	}
 
-	return str.str();
+	return ss.str();
 }
 
 template <typename T>
@@ -70,7 +69,7 @@ ostream& operator << (ostream& stream, vector <T> one) {
 	return stream << '(' << join(one, ',') << ')';
 }
 
-int main() {
+int mainY1() {
 	cout << numeric_limits<int>::max();
 	int x = 2'000'000'000;
 	unsigned int y = x;
@@ -79,6 +78,7 @@ int main() {
 	cout << (-1 < 1u) << endl;
 
 	vector<int> nums = { 5,3,2 };
+
 	//size имеет беззнаковый тип, поэтому если i вдруг окажется отрицательной, то при сравнении могут быть проблемы
 	//чтобы этого избежать делаем статик каст к знаковому типу
 	for (int i = 0; i < static_cast<int>(nums.size()); ++i) {
