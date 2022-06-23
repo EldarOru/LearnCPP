@@ -47,7 +47,7 @@ void RunTest(TestFunc func, const string& test_name) {
 }
 
 
-int main() {
+int mainY2() {
 	TestSum();
 	//RunTest(TestSum, "TestSum");
 	return 1;

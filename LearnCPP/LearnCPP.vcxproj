@@ -140,10 +140,14 @@
     <ClCompile Include="WhiteBelt\Tasks\Task7.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\FinalProject.cpp" />
     <ClCompile Include="YellowBelt\Lessons\FirstWeek.cpp" />
+    <ClCompile Include="YellowBelt\Lessons\FourthWeek.cpp" />
     <ClCompile Include="YellowBelt\Lessons\SecondWeek.cpp" />
+    <ClCompile Include="YellowBelt\Lessons\Sum.cpp" />
+    <ClCompile Include="YellowBelt\Lessons\ThirdWeek.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WhiteBelt\Tasks\PrintVector.h" />
+    <ClInclude Include="YellowBelt\Lessons\Sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
