@@ -26,7 +26,7 @@ void PrintRange(T range_begin,
 
 }
 
-int main() {
+int mainY4() {
 	vector<string> langs = {"Kotlin", "C++", "C", "Java"};
 	auto result = find_if(begin(langs),
 		end(langs),

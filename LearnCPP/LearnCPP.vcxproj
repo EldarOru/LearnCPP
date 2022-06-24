@@ -139,6 +139,7 @@
     <ClCompile Include="WhiteBelt\Tasks\Task6.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task7.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\FinalProject.cpp" />
+    <ClCompile Include="YellowBelt\Lessons\FifthWeek.cpp" />
     <ClCompile Include="YellowBelt\Lessons\FirstWeek.cpp" />
     <ClCompile Include="YellowBelt\Lessons\FourthWeek.cpp" />
     <ClCompile Include="YellowBelt\Lessons\SecondWeek.cpp" />

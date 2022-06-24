@@ -75,6 +75,9 @@
     <ClCompile Include="YellowBelt\Lessons\FourthWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="YellowBelt\Lessons\FifthWeek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WhiteBelt\Tasks\PrintVector.h">
