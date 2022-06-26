@@ -78,6 +78,9 @@
     <ClCompile Include="YellowBelt\Lessons\FifthWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RedBelt\FirstWeek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WhiteBelt\Tasks\PrintVector.h">
@@ -86,5 +89,8 @@
     <ClInclude Include="YellowBelt\Lessons\Sum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

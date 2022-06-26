@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="RedBelt\FirstWeek.cpp" />
     <ClCompile Include="WhiteBelt\Lessons\W-FourthWeek.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task1.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task2.cpp" />
@@ -149,6 +150,9 @@
   <ItemGroup>
     <ClInclude Include="WhiteBelt\Tasks\PrintVector.h" />
     <ClInclude Include="YellowBelt\Lessons\Sum.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

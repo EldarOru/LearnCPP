@@ -19,6 +19,7 @@ struct Apple : public Fruit {
 
 class AppleTree {
 public: 
+	//конструктов со списком инициализации 
 	AppleTree() : a1(), a2() {
 
 	}
@@ -79,7 +80,7 @@ void MakeSound(Animal& an) {
 }
 //При создание объекта сначала будет вызван конструктор базового класса, а потом потомка
 //Уничтожаться при этом они будут в обратном порядке - сначала потомка, а потом базового класса
-int main() {
+int mainY5() {
 	Orange orange;
 	Cat cat;
 	cat.Eat(orange);
@@ -100,4 +101,6 @@ int main() {
 	for (auto a : animals) {
 		MakeSound(*a);
 	}
+
+	return 1;
 }
