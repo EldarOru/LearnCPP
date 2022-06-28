@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="RedBelt\FirstWeek.cpp" />
+    <ClCompile Include="RedBelt\SecondWeek.cpp" />
     <ClCompile Include="WhiteBelt\Lessons\W-FourthWeek.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task1.cpp" />
     <ClCompile Include="WhiteBelt\Tasks\Task2.cpp" />
@@ -146,10 +147,14 @@
     <ClCompile Include="YellowBelt\Lessons\SecondWeek.cpp" />
     <ClCompile Include="YellowBelt\Lessons\Sum.cpp" />
     <ClCompile Include="YellowBelt\Lessons\ThirdWeek.cpp" />
+    <ClCompile Include="YellowBelt\Tasks\Task1.cpp" />
+    <ClCompile Include="YellowBelt\Tasks\Task2.cpp" />
+    <ClCompile Include="YellowBelt\Tasks\Task3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WhiteBelt\Tasks\PrintVector.h" />
     <ClInclude Include="YellowBelt\Lessons\Sum.h" />
+    <ClInclude Include="YellowBelt\Tasks\Task3.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

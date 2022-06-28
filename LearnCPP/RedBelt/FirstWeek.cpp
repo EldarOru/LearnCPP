@@ -3,10 +3,9 @@
 #include <string>
 #include <sstream>
 
-
 //Макросы
 //На этапе препроцессинга все макросы заменяются на функции, которые они представляют 
-#define MY_MAIN int main()
+#define MY_MAIN int mainR1()
 #define FINISH return 1
 
 //решетка около переменной позволяет обернуть название переменной в string
@@ -34,11 +33,11 @@ struct IteratorRange {
 	//Чтобы по объекту класса можно было проитерироваться с помощью цикла for 
 	//он должен иметь методы begin и end
 	Iterator begin() const {
-		return first
+		return first;
 	}
 
 	Iterator end() const {
-		return second
+		return second;
 	}
 };
 
