@@ -32,8 +32,14 @@ private:
 	steady_clock::time_point start;
 };
 
-int main() {
+int mainR2() {
 	LOG_DURATION("BASE");
+
+	float some = 391; // Простая переменная
+	float* u = &some; // Указатель на переменную
+	*u = 98; // Изменение значения переменной
+	cout << *u << endl;
+	cout << some << endl;
 	return 1;
 }
 

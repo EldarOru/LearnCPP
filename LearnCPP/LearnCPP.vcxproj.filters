@@ -78,7 +78,7 @@
     <ClCompile Include="YellowBelt\Lessons\FifthWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RedBelt\FirstWeek.cpp">
+    <ClCompile Include="RedBelt\Lessons\FirstWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="YellowBelt\Tasks\Task1.cpp">
@@ -90,7 +90,10 @@
     <ClCompile Include="YellowBelt\Tasks\Task3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RedBelt\SecondWeek.cpp">
+    <ClCompile Include="RedBelt\Lessons\SecondWeek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBelt\Lessons\ThirdWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
