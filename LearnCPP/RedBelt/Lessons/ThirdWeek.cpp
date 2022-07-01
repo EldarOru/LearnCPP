@@ -35,7 +35,7 @@ private:
 };
 
 //Локальные переменные хранятся в стеке
-int main() {
+int mainR3() {
 	int a = 20;
 	int b = 40;
 	int c = 60;
