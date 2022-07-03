@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="RedBelt\Lessons\FifthWeek.cpp" />
     <ClCompile Include="RedBelt\Lessons\FirstWeek.cpp" />
     <ClCompile Include="RedBelt\Lessons\FourthWeek.cpp" />
     <ClCompile Include="RedBelt\Lessons\SecondWeek.cpp" />
