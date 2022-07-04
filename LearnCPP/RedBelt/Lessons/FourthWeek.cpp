@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int main() {
+int mainR4() {
 	deque<int> d = { 1 };
 	auto it = begin(d);
 

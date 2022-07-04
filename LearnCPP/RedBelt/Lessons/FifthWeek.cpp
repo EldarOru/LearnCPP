@@ -25,7 +25,23 @@ vector<string> SplitIntoWords(const string& str) {
 	return words;
 }
 
-int main() {
+class Test {
+public:
+	Test(int x) { 
+		_x = x;
+		cout << "Constructor" << endl; };
+	//Объект запрещено копировать и можно только перемещать
+	Test(const Test&) = delete;
+	Test(Test&&) { cout << "Move" << endl; };
+	int _x;
+};
 
+int main() {
+	Test test(5);
+	Test test1 = move(test);
+	test._x = 3;
+	cout << test._x << endl;
+	cout << test1._x << endl;
+	// && это rvalue ссылка. Она позволяет принимать временные объекты
 	return 1;
 }
