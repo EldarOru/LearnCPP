@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <sstream>
-#include <chrono>
+#include <future>
 #include <string>
-#include <deque>
+#include <numeric>
 #include <array>
+#include <algorithm>
 
 using namespace std;
 
@@ -35,6 +35,16 @@ public:
 	Test(Test&&) { cout << "Move" << endl; };
 	int _x;
 };
+
+int SumToVectors(const vector<int> v1, const vector<int> v2) {
+	future<int> f = async([&v1] {
+		return accumulate(begin(v1), end(v1), 0);  
+	});
+	int result = accumulate(begin(v2), end(v2), 0);
+	return result + f.get();
+}
+//Mutex нужен для синхронизации
+//В секции может находиться только один поток
 
 int main() {
 	Test test(5);
